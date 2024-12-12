@@ -36,18 +36,9 @@ public class loginPage {
 		submit.click();
 	}
 
-	
-
-	
+}	
 
 
-
-
-
-
-
-
-}
 
 
 
