@@ -26,7 +26,7 @@ public class VerifyTasks extends base {
   	    Thread.sleep(1000);
   	    T1.Entertasks();
   	    
-// 	    
+ 	    
 //  	    String data6 = e.getStringData("sheet3", 6, 0);
 //		T1.EnterTaskName(data6);
 //		Thread.sleep(1000);          //[Positive case]
