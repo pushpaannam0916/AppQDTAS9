@@ -74,20 +74,20 @@ public class VerifyTasks extends base {
 		T1.ClickonReset();
 		Thread.sleep(2000);
 		
-		JavascriptExecutor j  =  (JavascriptExecutor)driver;
-        j.executeScript("window.scrollBy(0,1000)");
-        Thread.sleep(2000);
-		
-        double data11 = e.getNumericData("sheet3", 11, 0);
-     	T1.EnterUserID(data11);
-     	Thread.sleep(1000);
-     	
-     	JavascriptExecutor j1  =  (JavascriptExecutor)driver;
-        j.executeScript("window.scrollBy(0,1000)");
-        Thread.sleep(2000);
-     	
-     	T1.ClickonFetchTasks();
-		Thread.sleep(1000); 
+//		JavascriptExecutor j  =  (JavascriptExecutor)driver;
+//        j.executeScript("window.scrollBy(0,1000)");
+//        Thread.sleep(2000);
+//		
+//        double data11 = e.getNumericData("sheet3", 11, 0);
+//     	T1.EnterUserID(data11);
+//     	Thread.sleep(1000);
+//     	
+//     	JavascriptExecutor j1  =  (JavascriptExecutor)driver;
+//        j.executeScript("window.scrollBy(0,1000)");
+//        Thread.sleep(2000);
+//     	
+//     	T1.ClickonFetchTasks();
+//		Thread.sleep(1000); 
 		
 //		T1.ClickOnImage();
 //		Thread.sleep(1000);
