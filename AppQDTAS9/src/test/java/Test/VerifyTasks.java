@@ -27,13 +27,13 @@ public class VerifyTasks extends base {
   	    T1.Entertasks();
   	    
  	    
-  	    String data6 = e.getStringData("sheet3", 6, 0);
-		T1.EnterTaskName(data6);
-		Thread.sleep(1000);          //[Positive case]
-  	    
-//  	    String data6 = e.getStringData("sheet3", 6, 1);
+//  	    String data6 = e.getStringData("sheet3", 6, 0);
 //		T1.EnterTaskName(data6);
-//		Thread.sleep(1000);          //[Negative case]
+//		Thread.sleep(1000);          //[Positive case]
+  	    
+  	    String data6 = e.getStringData("sheet3", 6, 1);
+		T1.EnterTaskName(data6);
+		Thread.sleep(1000);          //[Negative case]
 		
 		
 		
@@ -89,11 +89,11 @@ public class VerifyTasks extends base {
      	T1.ClickonFetchTasks();
 		Thread.sleep(1000); 
 		
-		T1.ClickOnImage();
-		Thread.sleep(1000);
-		
-		T1.ClickOnLogout();
-		Thread.sleep(1000);
+//		T1.ClickOnImage();
+//		Thread.sleep(1000);
+//		
+//		T1.ClickOnLogout();
+//		Thread.sleep(1000);
      	
      	
 		
