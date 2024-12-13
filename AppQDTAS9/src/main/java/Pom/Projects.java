@@ -161,16 +161,16 @@ public class Projects {
 
    
     
-//    public void Entertype(String type)
-//    {
-//	        TYPE.sendKeys(type);
-//     }         // when we take +ve case type as 'String value automation'
+      public void Entertype(String type)
+      {
+	        TYPE.sendKeys(type);
+      }         // when we take +ve case type as 'String value automation'
 
     
-    public void Entertype(double type)
-    {
-	        TYPE.sendKeys("5678");
-   }             // when we take -ve case type as 'integers value 5678'
+//    public void Entertype(double type)
+//    {
+//	        TYPE.sendKeys("5678");
+//    }             // when we take -ve case type as 'integers value 5678'
      
     public void ClickonSubmit() 
 	{
@@ -269,6 +269,12 @@ public class Projects {
 		// TODO Auto-generated method stub
 		
 	}
+
+
+//	public void Entertype(String data6) {
+//		// TODO Auto-generated method stub
+//		
+//	}
 
 
 //	public void Enterstatus(String data3) {

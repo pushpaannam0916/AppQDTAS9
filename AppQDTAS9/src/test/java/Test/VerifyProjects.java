@@ -29,24 +29,24 @@ public class VerifyProjects extends base {
 	  P1.Enterprojects();
 	  
 
-//		String data = e.getStringData("sheet3", 0, 0);
-//		P1.EnterprojectName(data);
-//		Thread.sleep(2000);    //[Positive case]
+		String data = e.getStringData("sheet3", 0, 0);
+		P1.EnterprojectName(data);
+		Thread.sleep(2000);    //[Positive case]
 		
 	  
-	    String data = e.getStringData("sheet3", 0, 2);
-		P1.EnterprojectName(data);
-		Thread.sleep(2000);     //[Negative case]
+//	    String data = e.getStringData("sheet3", 0, 2);
+//		P1.EnterprojectName(data);
+//		Thread.sleep(2000);     //[Negative case]
 		
 		
 		
-//		String data1 = e.getStringData("sheet3", 1, 0);
-//		P1.Enterclient(data1);
-//		Thread.sleep(2000);    //[Positive case]
-		
-		String data1 = e.getStringData("sheet3", 1, 2);
+		String data1 = e.getStringData("sheet3", 1, 0);
 		P1.Enterclient(data1);
-		Thread.sleep(2000);       //[Negative case]
+		Thread.sleep(2000);    //[Positive case]
+		
+//		String data1 = e.getStringData("sheet3", 1, 2);
+//		P1.Enterclient(data1);
+//		Thread.sleep(2000);       //[Negative case]
 		
 		
 		
@@ -90,13 +90,13 @@ public class VerifyProjects extends base {
 //		P1.Enterstatus(data3);
 //		Thread.sleep(1000);
 		
-//		String data6 = e.getStringData("sheet3", 4, 0);
-//		P1.Entertype(data6);
-//		Thread.sleep(2000);         //[Positive case]
-		
-		double data6 = e.getNumericData("sheet3", 4, 2);
+		String data6 = e.getStringData("sheet3", 4, 0);
 		P1.Entertype(data6);
-		Thread.sleep(2000);         //[Negative case]
+		Thread.sleep(2000);         //[Positive case]
+		
+//		double data6 = e.getNumericData("sheet3", 4, 2);
+//		P1.Entertype(data6);
+//		Thread.sleep(2000);         //[Negative case]
 		
 		
 		
