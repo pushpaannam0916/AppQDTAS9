@@ -103,14 +103,14 @@ public class AddUserPage {
 	private WebElement NAMEOPTION;    //XPATH FOR NAME
 	
 	
-//	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr[2]/td[7]/p/mat-slide-toggle/div/label")
-//	private WebElement DISABLED;
+	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr[2]/td[7]/p/mat-slide-toggle/div/label")
+	private WebElement ENABLED;
 	
-//	@FindBy(xpath="/html/body/div[3]/div[2]/div/mat-dialog-container/div/div/app-dialogbox/div[2]/button[2]/span[2]")
-//	private WebElement YES;
+//	@FindBy(xpath="/html/body/div[3]/div[2]/div/mat-dialog-container/div/div/app-dialogbox/div[2]/button[1]/span[4]")
+//	private WebElement NO;
 	
-//	@FindBy(linkText="Yes")
-//	private WebElement YES;
+	@FindBy(linkText="No")
+	private WebElement NO;
 	
 	
 	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr/td[5]")
@@ -121,15 +121,15 @@ public class AddUserPage {
 
 	 
 	
-	@FindBy(xpath="/html/body/app-root/app-user-details/div/main/div/div/div/div[2]/form/div/div[7]/div/button")
-	private WebElement EDITOPTION;          //after clicking on EXTC THE PROFILE PAGE OPENS THERE EDIT
+//	@FindBy(xpath="/html/body/app-root/app-user-details/div/main/div/div/div/div[2]/form/div/div[7]/div/button")
+//	private WebElement EDITOPTION;          //after clicking on EXTC THE PROFILE PAGE OPENS THERE EDIT
 	
 //	@FindBy(id="edit")
 //	private WebElement EDITOPTION;   //  In action edit
 	
 	
-	@FindBy(id="select-field")
-	private WebElement SELECT;
+//	@FindBy(id="select-field")
+//	private WebElement SELECT;
 	
 
 	
@@ -139,18 +139,18 @@ public class AddUserPage {
 //	@FindBy(xpath="/html/body/div[3]/div[2]/div/mat-dialog-container/div/div/app-edit-user/div/div/div/form/div[1]/div/div/label")
 //	private WebElement GENDEROPTION;
 
-	
-	@FindBy(id="firstname")
-	private WebElement FIRSTNAME;
+//	
+//	@FindBy(id="firstname")
+//	private WebElement FIRSTNAME;
 	
 //	@FindBy(xpath="/html/body/div[1]/div[2]/div/mat-dialog-container/div/div/app-edit-user/div/div/div/form/div[3]/button")
 //	private WebElement SUBMIT1;
 	
-	@FindBy(xpath="//button[@type='submit']")  
-	private WebElement SUBMIT1;
-	
-	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr[1]/td[8]/div/i[2]")
-	private WebElement DELETE;
+//	@FindBy(xpath="//button[@type='submit']")  
+//	private WebElement SUBMIT1;
+//	
+//	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr[1]/td[8]/div/i[2]")
+//	private WebElement DELETE;
 	
 	
 
@@ -302,48 +302,47 @@ public class AddUserPage {
   }
     
      
-     public void ClickonUsername()
-     {
-    	 USERNAMEOPTION.click();     //CLICK ON TOP OF USERNSME HEADING
-     }
-    
+//     public void ClickonUsername()
+//     {
+//    	 USERNAMEOPTION.click();     //CLICK ON TOP OF USERNSME HEADING
+//     }
+//    
      
 //     public void ClickonName()
 //   {
 //  	     NAMEOPTION.click();    //CLICK ON TOP OF Name heading
 //   }
      
-//     public void ClickonDisabled()
-//     {
-//    	 DISABLED.click();
-//     }
-//     
-//     public void ClickOnYes()
-//     {
-//    	 
-//    	 YES.click();
-//     }
+     public void ClickonEnabled()
+     {
+    	ENABLED.click();
+     }
+     
+     public void ClickOnNo()
+     {
+    	 
+    	NO.click();
+     }
      
      
-    public void ClickonEXTC()
-    {
-    	EXTC.click();
-    }
-    
-//    public void ClickonEnabled()
+//    public void ClickonEXTC()
 //    {
-//    	ENABLEDBUTTON.click();
+//    	EXTC.click();
 //    }
      
-     public void ClickonEdit()
-     {
-    	 EDITOPTION.click();        // in profile page edit option works after clicking on extc
-     }
      
-     public void ClickOnSelect()
-     {
-    	 SELECT.click();
-     }
+    
+    
+     
+//     public void ClickonEdit()
+//     {
+//    	 EDITOPTION.click();        // in profile page edit option works after clicking on extc
+//     }
+//     
+//     public void ClickOnSelect()
+//     {
+//    	 SELECT.click();
+//     }
      
      
      
@@ -365,27 +364,27 @@ public class AddUserPage {
 // 	}
     
      
-     public void EnterFirstName(String FirstName)
-     {
-    	 FIRSTNAME.sendKeys(FirstName);
-    	 
-     }
-     
-     
-     public void ClickonSubmit1()
-     {
-    	 SUBMIT1.click();
-     }
-     
-          
-
-     
-    
-     
-     public void ClickonDelete ()
-     {
-    	 DELETE.click();
-     }
+//     public void EnterFirstName(String FirstName)
+//     {
+//    	 FIRSTNAME.sendKeys(FirstName);
+//    	 
+//     }
+//     
+//     
+//     public void ClickonSubmit1()
+//     {
+//    	 SUBMIT1.click();
+//     }
+//     
+//          
+//
+//     
+//    
+//     
+//     public void ClickonDelete ()
+//     {
+//    	 DELETE.click();
+//     }
 //     
      
      
@@ -449,6 +448,11 @@ public class AddUserPage {
 	}
 
 	public void ClickonYes() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void ClickonNo() {
 		// TODO Auto-generated method stub
 		
 	}
