@@ -9,7 +9,10 @@
   <parameter name="Browser" value="chrome"></parameter>
     <classes>
       <class name="Test.VerifyLoginPage"/>
-       <class name="Test.VerifyUserPage"/>
+      <class name="Test.VerifyUserPage"/>
+     
+
+      
       
       
      

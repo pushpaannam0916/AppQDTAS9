@@ -177,47 +177,55 @@ public class VerifyUserPage extends base{
 	   user1.EnterSearch(data18);
 	   Thread.sleep(3000);             // SEARCH BY PHONE NO 
 	   
-//	   user1.ClickonUsername();
-//	   Thread.sleep(2000);
+	   user1.ClickonUsername();
+	   Thread.sleep(2000);
 //	   
 //	   user1.Clickonname();
 //	   Thread.sleep(2000);
 	   
-	   user1.ClickonEnabled();
-	   Thread.sleep(1000);
-   
-	   user1.ClickonNo();
-	   Thread.sleep(1000);
+//	   user1.ClickonEnabled();
+//	   Thread.sleep(1000);
+//   
+//	   user1.ClickonNo();
+//	   Thread.sleep(1000);
 	   
 	   
 	   
 //	   user1.ClickonEXTC();
 //       Thread.sleep(1000);
-//      
+      
 
 	   
-//       user1.ClickonEdit();       // after clicking on extc the profile page opens where edit works
-//	   Thread.sleep(1000);
-////	   
-//	   user1.ClickOnSelect();
-//	   Thread.sleep(2000);
+       user1.ClickonEdit();       // after clicking on extc the profile page opens where edit works
+	   Thread.sleep(1000);
+//	   
+	   user1.ClickOnSelect();
+	   Thread.sleep(2000);
 	   
-//	      JavascriptExecutor j1 =(JavascriptExecutor)driver;
-//	      j.executeScript("window.scrollBy(0,1000)");
-//	      Thread.sleep(2000);
+	      JavascriptExecutor j1 =(JavascriptExecutor)driver;
+	      j.executeScript("window.scrollBy(0,1000)");
+	      Thread.sleep(2000);
 	   
 	   
 //	     user1.ClickOnGender();
 //		 Thread.sleep(1000);
 	   
-//	   Actions act = new Actions(driver);    //2 3  
-//	   for(int i=1;i<=3;i++) 
-//	   {                                                            //ARROW DOWN METHOD FOR SELECT FIRST NAME
-//	   act.sendKeys(Keys.ARROW_DOWN).build().perform();
-//	   Thread.sleep(1000);
-//	   }
-//	   
-//        act.sendKeys(Keys.ENTER).build().perform();               // Drop down method for  click on first name
+	   Actions act = new Actions(driver);    //2 3  
+	   for(int i=1;i<=3;i++) 
+	   {                                                            //ARROW DOWN METHOD FOR SELECT FIRST NAME
+	   act.sendKeys(Keys.ARROW_DOWN).build().perform();
+	   Thread.sleep(1000);
+	   }
+	   
+        act.sendKeys(Keys.ENTER).build().perform();               // Drop down method for  click on first name
+        
+        String data21 = e.getStringData("sheet2", 21, 0);
+ 	   user1.EnterFirstName1(data21);
+ 	   Thread.sleep(1000);
+ 	   
+ 	  user1.ClickonSubmit1();
+	   Thread.sleep(1000);
+    
 //        
 
 	   
@@ -232,17 +240,17 @@ public class VerifyUserPage extends base{
 	   
 	
 	   
-//	   String data21 = e.getStringData("sheet2", 21, 0);
-//	   user1.EnterFirstName(data21);
-//	   Thread.sleep(1000);
+	   
    
-//	   user1.ClickonSubmit();
-//	   Thread.sleep(1000);
+	   
 	   
 	   
 		
-//		 user1.ClickonDelete();
-//       Thread.sleep(1000);
+		 user1.ClickonDelete();
+       Thread.sleep(1000);
+       
+       user1.ClickonYes();
+       Thread.sleep(1000);
 		
 		
 

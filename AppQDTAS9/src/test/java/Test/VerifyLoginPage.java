@@ -33,11 +33,19 @@ public class VerifyLoginPage extends base {
 		  lp.EnterPassword(PassWord); 
 		  Thread.sleep(1000);
 		  
+		 lp.ClickonVisibilityImage();
+		 Thread.sleep(1000);
+		  
+		  
 		  lp.ClickonSubmit();
-		  Thread.sleep(2000);   
+		  Thread.sleep(2000); 
+		  
+		  lp.ClickonInstagram();
+		  Thread.sleep(1000);
 		  
 		
 	}
+	
 	
 	
 	

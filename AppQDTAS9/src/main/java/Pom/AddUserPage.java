@@ -113,8 +113,8 @@ public class AddUserPage {
 	private WebElement NO;
 	
 	
-	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr/td[5]")
-	private WebElement EXTC;
+//	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr/td[5]")
+//	private WebElement EXTC;
 	
 //	@FindBy(linkText=" EXTC ")
 //	private WebElement EXTCBUTTON;
@@ -124,12 +124,12 @@ public class AddUserPage {
 //	@FindBy(xpath="/html/body/app-root/app-user-details/div/main/div/div/div/div[2]/form/div/div[7]/div/button")
 //	private WebElement EDITOPTION;          //after clicking on EXTC THE PROFILE PAGE OPENS THERE EDIT
 	
-//	@FindBy(id="edit")
-//	private WebElement EDITOPTION;   //  In action edit
+	@FindBy(id="edit")
+	private WebElement EDITOPTION;   //  In action edit
 	
 	
-//	@FindBy(id="select-field")
-//	private WebElement SELECT;
+	@FindBy(id="select-field")
+	private WebElement SELECT;
 	
 
 	
@@ -140,18 +140,20 @@ public class AddUserPage {
 //	private WebElement GENDEROPTION;
 
 //	
-//	@FindBy(id="firstname")
-//	private WebElement FIRSTNAME;
+	@FindBy(xpath="/html/body/div[3]/div[2]/div/mat-dialog-container/div/div/app-edit-user/div/div/div/form/div[2]/div/div/input")
+	private WebElement FIRSTNAME;
 	
-//	@FindBy(xpath="/html/body/div[1]/div[2]/div/mat-dialog-container/div/div/app-edit-user/div/div/div/form/div[3]/button")
-//	private WebElement SUBMIT1;
+	@FindBy(xpath="/html/body/div[3]/div[2]/div/mat-dialog-container/div/div/app-edit-user/div/div/div/form/div[3]/button")
+	private WebElement SUBMIT1;
 	
 //	@FindBy(xpath="//button[@type='submit']")  
 //	private WebElement SUBMIT1;
 //	
-//	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr[1]/td[8]/div/i[2]")
-//	private WebElement DELETE;
+	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr[1]/td[8]/div/i[2]")
+	private WebElement DELETE;
 	
+	@FindBy(xpath="/html/body/div[3]/div[2]/div/mat-dialog-container/div/div/app-dialogbox/div[2]/button[2]/span[2]")
+	private WebElement YES;
 	
 
 	
@@ -302,10 +304,10 @@ public class AddUserPage {
   }
     
      
-//     public void ClickonUsername()
-//     {
-//    	 USERNAMEOPTION.click();     //CLICK ON TOP OF USERNSME HEADING
-//     }
+     public void ClickonUsername()
+     {
+    	 USERNAMEOPTION.click();     //CLICK ON TOP OF USERNSME HEADING
+     }
 //    
      
 //     public void ClickonName()
@@ -334,15 +336,15 @@ public class AddUserPage {
     
     
      
-//     public void ClickonEdit()
-//     {
-//    	 EDITOPTION.click();        // in profile page edit option works after clicking on extc
-//     }
-//     
-//     public void ClickOnSelect()
-//     {
-//    	 SELECT.click();
-//     }
+     public void ClickonEdit()
+     {
+    	 EDITOPTION.click();        // in profile page edit option works after clicking on extc
+     }
+     
+     public void ClickOnSelect()
+     {
+    	 SELECT.click();
+     }
      
      
      
@@ -364,28 +366,28 @@ public class AddUserPage {
 // 	}
     
      
-//     public void EnterFirstName(String FirstName)
-//     {
-//    	 FIRSTNAME.sendKeys(FirstName);
-//    	 
-//     }
+     public void EnterFirstName1(String FirstName)
+     {
+    	 FIRSTNAME.sendKeys(FirstName);
+    	 
+     }
+     
 //     
-//     
-//     public void ClickonSubmit1()
-//     {
-//    	 SUBMIT1.click();
-//     }
-//     
-//          
-//
-//     
-//    
-//     
-//     public void ClickonDelete ()
-//     {
-//    	 DELETE.click();
-//     }
-//     
+     public void ClickonSubmit1()
+     {
+    	 SUBMIT1.click();
+     }
+     
+     
+     public void ClickonDelete ()
+     {
+    	 DELETE.click();
+     }
+     
+     public void ClickonYes()
+     {
+    	 YES.click();
+     }
      
      
      
@@ -447,12 +449,14 @@ public class AddUserPage {
 		
 	}
 
-	public void ClickonYes() {
+	
+
+	public void ClickonNo() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	public void ClickonNo() {
+	public void EnterFirstName(String data21) {
 		// TODO Auto-generated method stub
 		
 	}

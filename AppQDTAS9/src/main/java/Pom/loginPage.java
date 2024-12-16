@@ -13,8 +13,14 @@ public class loginPage {
 	@FindBy(id="password")
 	private WebElement Password;
 	
+	@FindBy(xpath="/html/body/app-root/app-login/div/div[3]/form/div[2]/div/mat-icon")
+	private WebElement VISIBILITYIMAGE;
+	
 	@FindBy(xpath="/html/body/app-root/app-login/div/div[3]/form/button")
 	private WebElement submit;
+	
+	@FindBy(xpath="/html/body/app-root/app-login/div/div[3]/div/a[1]/i")
+	private WebElement INSTAGRAM;
 	
 	public loginPage(WebDriver driver) 
 	{
@@ -31,10 +37,22 @@ public class loginPage {
 		Password.sendKeys(passWord);
 	}
 	
+	public void ClickonVisibilityImage()
+	{
+		VISIBILITYIMAGE.click();
+	}
+	
 	public void ClickonSubmit() 
 	{
 		submit.click();
 	}
+	
+	public void ClickonInstagram()
+	{
+		INSTAGRAM.click();
+	}
+
+	
 
 
 }//	
