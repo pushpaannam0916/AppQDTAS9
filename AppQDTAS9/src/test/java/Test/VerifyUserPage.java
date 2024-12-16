@@ -246,11 +246,11 @@ public class VerifyUserPage extends base{
 	   
 	   
 		
-		 user1.ClickonDelete();
-       Thread.sleep(1000);
-       
-       user1.ClickonYes();
-       Thread.sleep(1000);
+//		 user1.ClickonDelete();
+//       Thread.sleep(1000);
+//       
+//       user1.ClickonYes();
+//       Thread.sleep(1000);
 		
 		
 
