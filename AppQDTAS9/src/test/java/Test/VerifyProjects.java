@@ -25,13 +25,13 @@ public class VerifyProjects extends base {
 	  e.getData();
 	  
 	  driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
-	  //Thread.sleep(1000);
+	  Thread.sleep(1000);
 	  P1.Enterprojects();
 	  
 
 		String data = e.getStringData("sheet3", 0, 0);
 		P1.EnterprojectName(data);
-		Thread.sleep(2000);    //[Positive case]
+		Thread.sleep(1000);    //[Positive case]
 		
 	  
 //	    String data = e.getStringData("sheet3", 0, 2);
@@ -85,7 +85,7 @@ public class VerifyProjects extends base {
 		
 		String data5= e.getStringData("sheet3", 3, 0);
 		P1.Enterstatus(data5);
-		Thread.sleep(1000);      // [positive case]
+		Thread.sleep(2000);      // [positive case]
 		
 //		P1.Enterstatus(data3);
 //		Thread.sleep(1000);
@@ -123,18 +123,18 @@ public class VerifyProjects extends base {
 //		 Thread.sleep(2000);        //[Search Status 'COMPLETED']
 		
 		P1.ClickonView();
-		Thread.sleep(2000); 
+		Thread.sleep(1000); 
 		
 		P1.Clickonclose();
-		Thread.sleep(2000); 
+		Thread.sleep(1000); 
 		
 		P1.ClickonAdd();
-		Thread.sleep(2000); 
+		Thread.sleep(1000); 
 		
 		
 		
 		P1.Clickonlakshmiappikatla();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 //		P1.Clickonadminuser();
 //		Thread.sleep(2000); 
@@ -150,13 +150,13 @@ public class VerifyProjects extends base {
         Thread.sleep(2000);
         
         P1.Clickonadminuser();
-		Thread.sleep(2000); 
+		Thread.sleep(1000); 
 		
 		P1.ClickonSubmit1();
-		Thread.sleep(2000); 
+		Thread.sleep(1000); 
 	
 	    P1.ClickonReset1();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 		
         

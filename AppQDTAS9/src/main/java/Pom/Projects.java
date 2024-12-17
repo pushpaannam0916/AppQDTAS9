@@ -18,6 +18,9 @@ public class Projects {
 	   @FindBy(id="projectName")
 	   private WebElement PROJECTNAME;
 	   
+//	   @FindBy(xpath="/html/body/app-root/app-projects/div/main/div/div/div[1]/div/form/div/div[1]/div[1]/input")
+//	   private WebElement PROJECTNAME;
+	   
 	   @FindBy(id="client")
 	   private WebElement CLIENT;
 	   

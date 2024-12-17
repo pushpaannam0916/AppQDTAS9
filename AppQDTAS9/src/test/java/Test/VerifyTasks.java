@@ -46,7 +46,7 @@ public class VerifyTasks extends base {
 //		Thread.sleep(1000);            //[Negative case]
 		
 		
-		
+//		
 		String data9 = e.getStringData("sheet3", 9, 0);
 		T1.EnterAssignee(data9);
 		Thread.sleep(1000);           //[Positive case]
@@ -56,7 +56,7 @@ public class VerifyTasks extends base {
 //		String data9 = e.getStringData("sheet3", 9, 1);
 //		T1.EnterAssignee(data9);
 //		Thread.sleep(1000);          
-		
+//		
 		
 	
 		
@@ -66,13 +66,13 @@ public class VerifyTasks extends base {
 		
 		String data10 = e.getStringData("sheet3", 10, 0);
 		T1.EnterAssignedTo(data10);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 		T1.ClickonSubmit();
-		Thread.sleep(2000); 
+		Thread.sleep(1000); 
 		
 		T1.ClickonReset();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 //		JavascriptExecutor j  =  (JavascriptExecutor)driver;
 //        j.executeScript("window.scrollBy(0,1000)");
@@ -89,11 +89,11 @@ public class VerifyTasks extends base {
 //     	T1.ClickonFetchTasks();
 //		Thread.sleep(1000); 
 		
-//		T1.ClickOnImage();
-//		Thread.sleep(1000);
-//		
-//		T1.ClickOnLogout();
-//		Thread.sleep(1000);
+		T1.ClickOnImage();
+		//Thread.sleep(1000);
+		
+		T1.ClickOnLogout();
+		Thread.sleep(1000);
      	
      	
 		
