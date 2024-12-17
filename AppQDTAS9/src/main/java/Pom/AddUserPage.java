@@ -152,7 +152,7 @@ public class AddUserPage {
 	@FindBy(xpath="/html/body/app-root/app-profile/div/main/div/app-add-user/div/div[3]/div/div/form/div[1]/table/tbody/tr[1]/td[8]/div/i[2]")
 	private WebElement DELETE;
 	
-	@FindBy(xpath="/html/body/div[3]/div[2]/div/mat-dialog-container/div/div/app-dialogbox/div[2]/button[2]/span[2]")
+	@FindBy(xpath="/html/body/div[3]/div[2]/div/mat-dialog-container/div/div/app-dialogbox/div[2]/button[2]/span[4]")
 	private WebElement YES;
 	
 
@@ -227,16 +227,7 @@ public class AddUserPage {
 		Department.sendKeys(DePartment);
 	}
 	
-//	public void enterDetails(String department) {
-//	
-//	 selectFromDropdown(Department, department);
-//	}
-//	
-//	public void selectFromDropdown(WebElement dropdown, String value_to_select) {
-//		Select objSelect =new Select(dropdown);
-//		objSelect.selectByVisibleText(value_to_select);
-//	}
-	
+
 	public void Enterrole(String ROLE) 
 	{
 		Role.sendKeys(ROLE);
@@ -315,16 +306,16 @@ public class AddUserPage {
 //  	     NAMEOPTION.click();    //CLICK ON TOP OF Name heading
 //   }
      
-     public void ClickonEnabled()
-     {
-    	ENABLED.click();
-     }
+//     public void ClickonEnabled()
+//     {
+//    	ENABLED.click();
+//     }
      
-     public void ClickOnNo()
-     {
-    	 
-    	NO.click();
-     }
+//     public void ClickOnNo()
+//     {
+//    	 
+//    	NO.click();
+//     }
      
      
 //    public void ClickonEXTC()

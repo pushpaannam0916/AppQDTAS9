@@ -47,15 +47,15 @@ public class VerifyTasks extends base {
 		
 		
 		
-		String data9 = e.getStringData("sheet3", 9, 1);
+		String data9 = e.getStringData("sheet3", 9, 0);
 		T1.EnterAssignee(data9);
 		Thread.sleep(1000);           //[Positive case]
 		
 		
 		
-//		String data9 = e.getStringData("sheet3", 9, 2);
+//		String data9 = e.getStringData("sheet3", 9, 1);
 //		T1.EnterAssignee(data9);
-//		Thread.sleep(1000);          //[Negative case]
+//		Thread.sleep(1000);          
 		
 		
 	
