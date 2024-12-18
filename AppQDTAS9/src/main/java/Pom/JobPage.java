@@ -80,8 +80,8 @@ public class JobPage {
 		JOBTITLE.click();
 		ADDBUTTON.click();
 		
-//      JOBTITLENAME.sendKeys("Tester");         //POSITIVE CASES
-//		JOBDESCRIPTION.sendKeys("Automated UI"); //POSITIVE CASES
+        JOBTITLENAME.sendKeys("Tester");         //POSITIVE CASES
+		JOBDESCRIPTION.sendKeys("Automated UI"); //POSITIVE CASES
 		
 		JOBTITLENAME.click();      //BLANK FIELD
 		JOBDESCRIPTION.click();    //BLANK FIELD

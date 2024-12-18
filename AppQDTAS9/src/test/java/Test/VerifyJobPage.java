@@ -44,23 +44,23 @@ public class VerifyJobPage extends base {
 //	Thread.sleep(3000);
 
 	
-//	String JobTitleName = e.getStringData("Sheet4", 0, 0);
-//	Thread.sleep(3000);       // POSITIVE CASE
+	String JobTitleName = e.getStringData("Sheet4", 0, 0);
+	Thread.sleep(3000);       // POSITIVE CASE
 	
 //	String JobTitleName = e.getStringData("Sheet4", 0, 1);
 //	Thread.sleep(3000);       //NEGATIVE CASE
 	
 	
 	
-//	String JobDescription = e.getStringData("Sheet4", 1, 0);
-//	Thread.sleep(3000);       //POSITIVE CASE
+	String JobDescription = e.getStringData("Sheet4", 1, 0);
+	Thread.sleep(3000);       //POSITIVE CASE
 	
 	
 //	String JobDescription = e.getStringData("Sheet4", 1, 1);
 //	Thread.sleep(3000);       //NEGATIVECASE
 	
 	
-//	J.enterDetails(JobTitleName, JobDescription);
+	J.enterDetails(JobTitleName, JobDescription);
 	
 	J.ClickonSubmit();
 	Thread.sleep(3000); 
