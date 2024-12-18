@@ -1,4 +1,4 @@
-package Test;
+package Com.Test;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -10,8 +10,8 @@ import org.openqa.selenium.interactions.Action;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
+import pom.loginPage;
 
-import Pom.loginPage;
 import utility.base;
 import utility.exceldataprovider;
 

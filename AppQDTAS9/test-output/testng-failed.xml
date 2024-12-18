@@ -7,13 +7,13 @@
   <test thread-count="2" parallel="tests" name="Test(failed)">
     <parameter name="Browser" value="chrome"/>
     <classes>
-      <class name="Test.VerifyJobPage">
+      <class name="Test.VerifyUserPage">
         <methods>
+          <include name="adduser"/>
           <include name="failedScreenshot"/>
           <include name="browserlaunch"/>
-          <include name="JOB"/>
         </methods>
-      </class> <!-- Test.VerifyJobPage -->
+      </class> <!-- Test.VerifyUserPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

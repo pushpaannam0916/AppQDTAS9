@@ -1,4 +1,4 @@
-package Test;
+package Com.Test;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -7,7 +7,8 @@ import org.apache.commons.math3.analysis.function.Add;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
-import Pom.JobPage;
+import pom.JobPage;
+
 import utility.base;
 import utility.exceldataprovider;
 

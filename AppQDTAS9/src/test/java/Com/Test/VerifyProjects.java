@@ -1,4 +1,4 @@
-package Test;
+package Com.Test;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -9,7 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import Pom.Projects;
+import pom.Projects;
+
 import utility.base;
 import utility.exceldataprovider;
 

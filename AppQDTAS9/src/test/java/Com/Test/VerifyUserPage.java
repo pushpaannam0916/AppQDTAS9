@@ -1,4 +1,4 @@
-package Test;
+package Com.Test;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -12,7 +12,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 
-import Pom.AddUserPage;
+import pom.AddUserPage;
+
 import utility.base;
 import utility.exceldataprovider;
 
