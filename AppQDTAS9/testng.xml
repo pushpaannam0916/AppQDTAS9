@@ -10,7 +10,7 @@
     <classes>
       <class name="Test.VerifyLoginPage"/>
       
-      <class name="Test.VerifyProjects"/>
+      <class name="Test.VerifyJobPage"/>
      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
